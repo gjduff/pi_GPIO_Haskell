@@ -151,7 +151,7 @@ doIO = do
   C.killThread tId1
   C.killThread tId2
   cleanUp
-  putStrLn "Done. GPIO pims cleaned up."
+  putStrLn "Done. GPIO pins cleaned up."
 
 
 --
