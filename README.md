@@ -1,6 +1,6 @@
 # pi Traffic Lights
 
-This is a collection of Haskell programs that use the run on the
+This is a collection of Haskell programs that run on the
 raspberry pi using the gpio pins as well as a simple worker thread
 / messaging thread demo since the concept is used in the traffic
 light program.
@@ -23,6 +23,16 @@ examples can be compiled on the pi with a simple ghc command
 Wiring of the raspberry pi GPIO for the traffic light programs:
 
 ![](images/pi4_traffic.png)
+
+
+## About the worker thread example
+
+The worker thread example is the simplest program I could come up with that
+starts two threads and communicates data from one thread to the other
+without the thread reading the data getting blocked. 
+
+It was easy to find documentation about the "Control.Concurrent" library, but 
+not so easy to actually find a simple practical example.
 
 
 ## Authors
