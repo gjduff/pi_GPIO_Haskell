@@ -20,6 +20,9 @@ examples can be compiled on the pi with a simple ghc command
   ghc trafficlights.hs
 '''
 
+Wiring of the raspberry pi GPIO for the traffic light programs:
+
+![](images/pi4_traffic.png)
 
 
 ## Authors
