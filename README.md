@@ -10,15 +10,15 @@ light program.
 To keep things lightweight, stack was not installed on the raspberry
 pi so for now only the libraries that come with GHC are used.
 To install ghc o the pi, the following were used:
-'''
+```
   sudo apt-get update
   sudo apt-get install ghc --fix-missing
-'''
+```
 
 examples can be compiled on the pi with a simple ghc command
-'''
+```
   ghc trafficlights.hs
-'''
+```
 
 Wiring of the raspberry pi GPIO for the traffic light programs:
 
